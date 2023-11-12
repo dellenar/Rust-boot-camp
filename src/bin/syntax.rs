@@ -1,15 +1,15 @@
 fn main() {
-    let message = "Hello World"; // String variable
+    let _message = "Hello World"; // String variable
 
-    let x: i32 = 42; // Number variable
+    let _x: i32 = 42; // Number variable
 
-    let pi : f64 = 3.14; // float type
+    let _pi : f64 = 3.14; // float type
 
-    let is_rust_fun: bool = true; // boolean type
+    let _is_rust_fun: bool = true; // boolean type
 
-    let letter_a: char = 'a'; // char type
+    let _letter_a: char = 'a'; // char type
 
-    fn add(x: i32, y:i32) -> i32 {
+    fn _add(x: i32, y:i32) -> i32 {
         return x + y; // or can be used without return like -> x + y  
     } // to create function do fn name()
 
